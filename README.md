@@ -1,5 +1,8 @@
 # LargeImageLoader iOS App
 
+[![codebeat]](https://codebeat.co/projects/github-com-adeel-ishaq-large-image-loader-master)
+
+**Code Beat Score:** 3.96/4.0 GPA 
 
 ## Tools & Technologies
 
