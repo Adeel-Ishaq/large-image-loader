@@ -28,13 +28,6 @@ final class PhotosListCoordinator: Coordinator {
         let vc = PhotosListViewController(with: vm)
         root.viewControllers = [vc]
     }
-    
-//    func prepareGalleryDetail(_ root: UIViewController, gallery: Gallery) {
-//        let c = GalleryDetailsCoordinator(root, gallery: gallery)
-//        c.parent = self
-//        c.start()
-//        children.append(c)
-//    }
 }
 
 // MARK: - PhotosListCoordinatorDelegate

@@ -72,15 +72,6 @@ final class PhotosListViewModel {
         }
     }
     
-    /// To inform the view model that a photo was tapped.
-    /// View model executes call back for photo selection from coordinator.
-    ///
-    /// - Parameter row: Index of the photo tapped.
-    func didSelectImage(at index: Int) {
-//        guard (0..<photos.count) ~= index else { return }
-//        coordinatorDelegate?.didSelect(gallery: photos[index])
-    }
-    
     func imageURL(for index: Int) -> URL? {
         let imagePath = self.bundleName + "/" + "\(index)"
         guard let pathForFile = Bundle.main.path(forResource: imagePath, ofType: self.imageFormat) else {

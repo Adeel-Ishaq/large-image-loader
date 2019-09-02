@@ -26,14 +26,6 @@ extension PhotosListViewController: UICollectionViewDataSource {
     }
 }
 
-// MARK: - UICollectionViewDelegate
-
-extension PhotosListViewController: UICollectionViewDelegate {
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        viewModel.didSelectImage(at: indexPath.row)
-    }
-}
-
 // MARK: - UICollectionViewDataSourcePrefetching
 
 extension PhotosListViewController: UICollectionViewDataSourcePrefetching {
